@@ -45,4 +45,11 @@ git clone --single-branch --branch release/0.7-melodic https://github.com/yujinr
 git clone --single-branch --branch melodic https://github.com/yujinrobot/kobuki_core.git
 git clone --single-branch --branch melodic https://github.com/turtlebot/turtlebot.git 
 git clone --single-branch --branch melodic https://github.com/yujinrobot/kobuki_desktop.git
+
+git clone https://github.com/roboticsengineer93/turtlebot2_rplidar.git
+```
+
+### Launch the Turtlebot2 in Gazebo
+```
+roslaunch turtlebot2_rplidar_gazebo turtlebot_world.launch
 ```
