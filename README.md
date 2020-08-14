@@ -12,7 +12,8 @@ sudo apt-get install libftdi-dev
 ### Install gazebo dependancies
 ```
 sudo apt-get install ros-melodic-gazebo-ros
-sudo apt-get install ros-melodic-robot-state-publisher
+sudo apt-get install ros-melodic-gazebo-plugins
+sudo apt-get install pyqt5-dev-tools
 ```
 ### Install melodic dependancies
 ```
@@ -28,6 +29,11 @@ sudo apt-get install ros-melodic-ecl-streams
 sudo apt-get install ros-melodic-joy
 sudo apt-get install ros-melodic-yocs-controllers 
 sudo apt install ros-melodic-yujin-ocs
+
+sudo apt-get install ros-melodic-rqt-plot 
+sudo apt-get install ros-melodic-robot-state-publisher
+sudo apt-get install ros-melodic-rqt-robot-dashboard
+
 ```
 
 ### Create ROS Workspace
@@ -38,4 +44,5 @@ git clone --single-branch --branch melodic https://github.com/yujinrobot/kobuki.
 git clone --single-branch --branch release/0.7-melodic https://github.com/yujinrobot/kobuki_msgs.git
 git clone --single-branch --branch melodic https://github.com/yujinrobot/kobuki_core.git
 git clone --single-branch --branch melodic https://github.com/turtlebot/turtlebot.git 
+git clone --single-branch --branch melodic https://github.com/yujinrobot/kobuki_desktop.git
 ```
